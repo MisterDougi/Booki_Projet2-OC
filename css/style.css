@@ -1,0 +1,429 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.page{
+    width: 1400px; 
+    margin: auto;
+}
+h3{
+    font-size: 18px;
+}
+.flexCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flexBetween{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+
+/*HEADER--------------------------------------------*/
+header{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    height: 100px;
+    max-width: 1400px;
+}
+.logo{
+    display:flex;
+    align-items: center;   
+}
+.logo img{
+    width: 60%;  
+}
+.menu{
+    height: 100%;
+}
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: 0;
+    height: 100%;
+}
+nav li{
+    width: 115px;
+    text-align: center;
+}
+nav a{
+    display: block;
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+    border-top: 3px solid transparent;
+    padding-top: 20px;
+    padding-top: 35px;
+}
+nav a:hover{
+    color: #0065FC;
+    border-top: 3px solid #0065FC;
+    cursor: pointer;
+}
+h1{
+    font-size: 20px;
+}
+/*BARRE DE RECHERCHE---------------------------------*/
+.recherche{
+    margin-top: 30px;
+    display: flex;
+    width: 400px;
+    border-radius: 10px;
+    border: 0.5px solid #f2f2f2;
+}
+.iconSearch{
+    height: 50px;
+    width: 50px;
+    background-color: #f2f2f2;
+    border-radius: 10px 0 0 10px;
+}
+input{
+    padding-left: 20px;
+    height: 50px;
+    width: 230px;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    border: none;
+}
+.buttonSearch{
+    font-weight: 500;
+    height: 50px;
+    width: 120px;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 10px 10px 0;
+    background-color: #0065FC;
+    padding-right: 18px;
+}
+.loupe{
+    display: none;
+}
+.buttonSearch:hover{
+    font-weight: 500;
+    color: #0065FC;
+    background-color: #f2f2f2;
+    transition: .2s all ease;
+    cursor: pointer;
+}
+/*SECTION FILTRES------------------------------------*/
+.sectionFiltres{
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.filtres{
+    margin-right: 20px;
+}
+.filtreType{
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+}
+.textIcon{
+    margin-right: 10px;
+    border: 2px solid #d9d9d9;
+    height: 50px;
+    border-radius: 30px;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 52px;
+    height: 52px;
+    color: #0065FC;
+}
+.filtreText{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding-right: 20px;
+    font-weight: 700;
+
+}
+.textIcon:hover{
+    font-weight: 700;
+    background-color: #deebff;
+    transition: .2s all ease;
+    cursor: pointer;
+}
+/*INFO*/
+.info{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.pictoInfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0065FC;
+    border: 1px solid #f2f2f2;
+    border-radius: 25px;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+/*HERBERGEMENT---------------------------------------*/
+.hebPop p{
+    margin: 0;
+}
+.hebPop{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.hebergements{
+    background-color: #f2f2f2;
+    width: 64%;
+    padding: 2%;
+    border-radius: 15px;
+}
+.titreHeb{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.cardHebDisplay{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.cardHeb{
+    width: 30%;
+    height: 200px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    background-color: white;
+    border: 4px solid white;
+    border-radius: 15px;
+    box-shadow: 4px 4px 6px #e6e6e6;
+    text-decoration: none;
+}
+.cardHebImg{
+    width: 100%;
+    height: 107px;
+    object-fit: cover;
+    border-radius: 11px 11px 0 0;
+}
+.cardHebTitre{
+    font-weight: bold;
+    padding: 2% 0 3% 3%;
+    object-fit: fill;
+    color: black;
+}
+.cardHebPrix{
+    font-size: smaller;
+    padding-left: 3%;
+    color: black;
+}
+.cardHebStars{
+    display: flex;
+    padding-left: 3%;
+    margin: 14.5px 0 14.5px 0;
+}
+.cardHeb:hover{
+    transform: scale(1.02);
+}
+.blueStar{
+    color: #0065FC;
+}
+.greyStar{
+    color: #f2f2f2;
+}
+.affPlus{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+.affPlus p{
+    margin-top: 30px;
+}
+/*POPULAIRES------------------------------------------*/
+.populaires{
+    background-color: #f2f2f2;
+    width: 33%;
+    padding-top: 20px;
+    padding-left: 2%;
+    border-radius: 15px;
+}
+.titrePop i{
+    color: #0065FC;
+}
+.titrePop{
+    font-size: 18px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    font-size: 18px;
+    margin: 0;
+}
+.cardPopDisplay{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cardPop{
+    width: 90%;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    object-fit: fill;
+    margin-bottom: 7%;
+    background-color: white;
+    border: 4px solid white;
+    border-radius: 15px;
+    box-shadow: 4px 4px 6px #e6e6e6;
+}
+.cardPop:hover{
+    transform: scale(1.01);
+}
+.aPop{
+    display: flex;
+    margin-top: 0;
+    text-decoration: none;
+}
+.imgPopDisplay{
+    width: 39%;
+    object-fit: fill;
+}
+.imgPop{
+    width: 90%;
+    height: 132px;
+    object-fit: cover;
+    border-radius: 11px 0 0 11px;
+}
+.popBody{
+    width: 62%;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 7px;
+    object-fit: fill;
+}
+.popTitre{
+    font-weight: bold;
+    padding: 4% 0 3% 4px;
+    object-fit: fill;
+    color: black;
+}
+.popPrix{
+    font-size: smaller;
+    padding-top: 5px;
+    padding-left: 4px;
+    object-fit: fill;
+}
+.popStars1{
+    display: flex;
+    flex-direction: row;
+    padding-top: 55px;
+    padding-left: 4px;
+}
+.popStars2{
+    display: flex;
+    flex-direction: row;
+    padding-top: 38px;
+    padding-left: 4px;
+}
+.popStars3{
+    display: flex;
+    flex-direction: row;
+    padding-top: 55px;
+    padding-left: 4px;
+}
+/*ACTIVITÉS-------------------------------------------*/
+.activites{
+    width: 100%;
+    margin-top: 60px;
+}
+.activitesDisplay{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 480px;
+    text-decoration: none;
+}
+.activitesDisplay a{
+    text-decoration: none;
+    color: black;
+}
+.cardActivites{
+    width: 22%;
+    height: 450px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 4px 4px 6px #e6e6e6;
+}
+.cardActivites:hover{
+    transform: scale(1.01);
+}
+.imgActivites{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 11px 11px 0 0;
+}
+.imgActivites:hover{
+    color: white;
+    opacity: 0.5;
+}
+.cardActTitre{
+    font-weight: bold;
+    height: 50px;
+    padding: 13px 0 0 15px;
+}
+/*FOOTER----------------------------------------------*/
+footer{
+    background-color: #f2f2f2;
+    width: 100%;
+}
+.footerDisplay{
+    height: auto;
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-left: 40px;
+    margin-top: 20px;
+}
+.listFooter{
+    width: 30%;
+    margin: 5px;
+}
+footer a{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 4px 0 4px 0;
+    color: black;
+}
+footer ul{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 4px 0 4px 0;
+    color: black;
+}
+footer li{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 10px 0 5px 0;
+    color: black;
+}

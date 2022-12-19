@@ -1,0 +1,287 @@
+@media screen and (max-width: 767px){
+    main{
+        max-width: 767px;
+        height: auto;
+        width: 100%;
+        font-size: 16px;
+        margin-top: 50px;
+    }
+    .page{
+        max-width: 767px;
+        width: 100%;
+        margin: auto;
+    }
+    h3{
+        font-size: 20px;
+    }
+    /*MENU NAV------------------------------------------------*/
+    header{
+        max-width: 767px;
+        width: 100%;
+        margin: 0;
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+    .logo{
+        width: 100%;
+        padding-top: 20px;
+        padding-left: 0;
+        justify-content: center;
+    }
+    .logo img{
+        width: 20%;
+        padding-left: 40px;
+    }
+    .menu{
+        height: 100px;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    nav ul{
+        width: 100%;
+        padding-left: 0;
+        margin-bottom: 10px;
+    }
+    nav li{
+        display: flex;
+        justify-content: center;
+        width: 50%;
+        padding-bottom: 10px;
+        border-bottom: 2px solid #f2f2f2;
+    }
+    nav li:hover{
+        color: #0065FC;
+        border-bottom: 2px solid #0065FC;
+        cursor: pointer;
+    }
+    nav a:hover{
+        border-top: 0px;
+    }
+    nav a{
+        display: block;
+        width: 50%;
+        font-size: 120%;
+    }
+    .titre{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 80%;
+        margin: auto;
+    }
+    h1{
+        font-size: 30px;
+    }
+    .titre p{
+        font-size: 20px;
+    }
+    .recherche{
+        margin: auto;
+        width: 332px;
+    }
+    .buttonSearch{
+        display: none;
+    }
+    .loupe{
+        width: 50px;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid #0065FC;
+        background-color: #0065FC;
+        border-radius: 0 10px 10px 0;
+    }
+    .loupeSkin{
+        color: white;
+    }
+    .loupe:hover{
+        font-weight: 500;
+        background-color: #f2f2f2;
+        transition: .2s all ease;
+        cursor: pointer;
+    }
+    .loupe > .loupeSkin:hover{
+        color: #0065FC;
+    }
+    /*FILTRES--------------------------------------------------*/
+    .sectionFiltres{
+        display: block;
+        margin: 30px 30px 0 30px;
+    }
+    .filtres{
+        font-size: 20px;
+    }
+    .filtreType{
+        flex-wrap: wrap;
+    }
+    .textIcon{
+        border: 3px solid #f2f2f2;
+        height: 60px;
+        width: 45%;
+        justify-content: flex-start;
+        margin-bottom: 20px;
+        border-radius: 40px;
+        margin-right: 20px;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    /*INFOS--------------------------------------------*/
+    .info{
+        width: 90%;
+        margin: auto;
+    }
+    .info p{
+        font-size: 20px;
+    }
+    .pictoInfo{
+        transform: scale(1.2);
+    }
+    /*HEBERGEMENT - POPULAIRES----------------------------*/
+    .hebPop{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    /*POPULAIRES-------------------------------------------*/
+    .populaires{
+        padding-bottom: 20px;
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-radius: 0;
+    }
+    .cardPop{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+        margin-bottom: 3%;
+    }
+    .imgPop{
+        border-radius: 12px 0 0 12px;
+    }
+    .titrePop{
+        margin: auto;
+    }
+    .popTitre{
+        font-size: 20px;
+    }
+    .popPrix{
+        font-size: medium;
+    }
+    .popStars1{
+        padding-top: 32px;
+    }
+    .popStars2{
+        padding-top: 32px;
+    }
+    .popStars3{
+        padding-top: 32px;
+    }
+    /*HEBERGEMENTS-------------------------------------------*/
+    .hebergements{
+        padding: 0;
+        width: 100%;
+        margin-bottom: 20px;
+        background-color: white;
+    }
+    .titreHeb{
+        width: 85%;
+        margin: auto;
+        font-size: 20px;
+        margin-bottom: 2%;
+    }
+    .afficherPlus{
+        width: 100%;
+        text-align: center;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    .affPlus p{
+        align-items: center;
+        width: 35%;
+        border: 2px solid #0065FC;
+        background-color: #0065FC;
+        color: white;
+        border-radius: 25px;
+        margin: auto;
+        padding: 2%;
+    }
+    .cardHebDisplay{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        
+    }
+    .cardHeb{
+        width: 85%;
+        margin: auto;
+        margin-bottom: 2%;
+    }
+    .cardHebImg{
+        width: 100%;
+        object-fit: cover;
+    }
+    .cardHebTitre{
+        padding: 1% 0 1% 3%;
+    }
+    .cardHebPrix{
+        margin-top: 8px;
+    }
+    .cardHebStars{
+        margin-top: 10.5px;
+    }
+    .imageCard{
+        border-radius: 13px 13px 0 0;
+        overflow: hidden;
+    }
+    /*ACTIVITES------------------------------------------*/
+    .activites{
+        max-width: 767px;
+        margin-top: 0;
+    }
+    .titreActivites{
+        width: 85%;
+        margin: auto;
+        font-size: 20px;
+    }
+    .activitesDisplay{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        height: auto; 
+    }
+    .cardActivites{
+        width: 85%;
+        margin: auto;
+        height: 200px;
+        margin-top: 15px;
+        margin-bottom: 5px;
+    }
+    .imgActivites{
+        height: 150px;
+        object-fit: cover;
+    }
+    /*FOOTER------------------------------------------*/
+    .footerDisplay{
+        flex-direction: column;
+    }
+    .listFooter{
+        width: 90%;
+    }
+    footer{
+        max-width: 767px;
+    }
+    footer ul{
+        margin-top: 10px;
+    }
+    footer li{
+        margin: 6px 0 6px 0;
+    }
+    footer h3{
+        margin-bottom: 10px;
+    }
+}
