@@ -176,6 +176,7 @@ input{
 /*HERBERGEMENT---------------------------------------*/
 .hebPop p{
     margin: 0;
+    text-decoration: none;
 }
 .hebPop{
     width: 100%;
