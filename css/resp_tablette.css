@@ -115,21 +115,10 @@
     }
     .afficherPlus{
         width: 100%;
-        height: auto;
-        text-align: center;
-        padding-bottom: 20px;
-        padding-top: 20px;
-    }
-    .affPlus p{
-        align-items: center;
-        width: 20%;
-        height: 35px;
-        border: 1px solid #0065FC;
-        background-color: #0065FC;
-        color: white;
-        border-radius: 25px;
-        margin: auto;
-        padding: 1%;
+        height: 50px;
+        text-align: left;
+        margin-bottom: 20px;
+        padding-left: 4px;
     }
     .affPlus p:hover{
         font-weight: 500;
