@@ -10,6 +10,9 @@
         width: 95%;
         margin: auto;
     }
+    border{
+        margin: 0;
+    };
     /*MENU NAV------------------------------------------------*/
     header{
         max-width: 991px;
@@ -54,16 +57,20 @@
     .cardPopDisplay{
         flex-direction: row;
         justify-content: space-around;
-        height: 180px;
+        height: 190px;
     }
-    .cardPop{
+    .aPop{
         width: 30%;
+        height: 150px;
         margin-top: 15px;
     }
     .titrePop{
         width: 95%;
         margin: auto;
         padding-top: 10px;
+    }
+    .imgPop{
+        height: 100%;
     }
     .popTitre h3{
         font-size: 20px;
