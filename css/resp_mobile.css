@@ -144,6 +144,7 @@
         height: auto;
         display: flex;
         flex-direction: column-reverse;
+        margin-bottom: 20px;
     }
     /*POPULAIRES-------------------------------------------*/
     .cardPopDisplay{
@@ -152,7 +153,7 @@
         padding-bottom: 20px;
         width: 100%;
         margin-top: 20px;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
         border-radius: 0;
     }
     .aPop{

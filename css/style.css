@@ -19,9 +19,9 @@ h3{
     align-items: center;
 }
 .flexBetween{
-  display: flex;
-  justify-content:space-between;
-  align-items: center;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
 }
 
 /*HEADER--------------------------------------------*/
@@ -148,7 +148,7 @@ input{
     height: 50px;
     padding-right: 20px;
     font-weight: 700;
-
+    
 }
 .textIcon:hover{
     font-weight: 700;
