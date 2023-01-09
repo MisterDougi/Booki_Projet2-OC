@@ -12,7 +12,7 @@
     }
     border{
         margin: 0;
-    };
+    }
     /*MENU NAV------------------------------------------------*/
     header{
         max-width: 991px;
@@ -172,5 +172,4 @@
     .listFooter{
         margin: 15px;
         width: 35%;
-    }
-}
+    }}
